@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cafe Website</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Playfair+Display:wght@300..900&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container header-container">
+        <a href="#home" class="logo">
+            <i class="fa-solid fa-mug-hot logo-icon"></i>
+            <div class="logo-text">Café<span>Serene</span></div>
+        </a>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+        </div>
+
+
+        <div class="nav-buttons">
+            <a href="#" class="btn btn-secondary">Sign In</a>
+            <a href="#" class="btn btn-primary">Order Online</a>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-subtitle">
+                <i class="fa-solid fa-seedling"></i>
+                Ethically Sourced Beans
+            </div>
+            <h1 class="hero-title">
+                Made to Be Enjoyed <br>
+                <span>Crafted for Every Craving</span>
+            </h1>
+            <p class="hero-text">
+                A thoughtfully curated mix of specialty drinks, freshly baked pastries, indulgent desserts, and hearty pastas. Each item is carefully prepared to bring out comforting flavors and satisfying quality in every order.
+            </p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Explore Our Blends</a>
+                <a href="#contact" class="btn btn-secondary">Visit Our Cafe</a>
+            </div>
+        </div>
+        <img src="asset/hound7.jpg" alt="Cafe Coffee" class="hero-image">
+    </div>
+</section>
+
+<!-- Products Section (All grouped here) -->
+<section class="products" id="products">
+    <div class="container">
+
+        <!-- Coffee Blends -->
+        <div class="section-header">
+            <div class="section-subtitle">Our Selection</div>
+            <h2 class="section-title">Signature Coffee Blends</h2>
+            <p class="section-desc">
+                Each batch is carefully roasted to highlight the unique characteristics of the beans.
+            </p>
+        </div>
+
+        <div class="product-grid">
+            <!-- Coffee Card 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/sm.jpg" alt="Strawberry Zen Latte">
+                </div>
+                <div class="product-info">
+                    <div class="product-tag">BESTSELLER</div>
+                    <h3 class="product-title">Strawberry Zen Latte</h3>
+                    <p class="product-desc">
+                        A smooth blend of earthy matcha and sweet strawberry, layered with creamy milk for a refreshing, lightly sweet latte.
+                    </p>
+                    <div class="product-footer">
+                        <div class="product-price">₱225</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coffee Card 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/cm.jpg" alt="Caramel Cloud">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Caramel Cloud</h3>
+                    <p class="product-desc">
+                        A rich espresso layered with creamy milk and finished with a smooth drizzle of sweet caramel.
+                    </p>
+                    <div class="product-footer">
+                        <div class="product-price">₱165</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coffee Card 3 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/wm.jpg" alt="Ivory Mocha Bliss">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Ivory Mocha Bliss</h3>
+                    <p class="product-desc">
+                        A velvety blend of espresso, creamy milk, and smooth white chocolate for a sweet, comforting coffee. 
+                    </p>
+                    <div class="product-footer">
+                        <div class="product-price">₱150</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pastries Subsection -->
+        <div class="section-header">
+
+            <h2 class="section-title">Signature Pastries</h2>
+            <div class="section-subtitle">Freshly Baked</div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/croissant.jpg" alt="Butter Croissant">
+                </div>
+                <div class="product-info">
+                    <div class="product-tag">POPULAR</div>
+                    <h3 class="product-title">Butter Croissant</h3>
+                    <p class="product-desc">Flaky, golden layers with rich buttery flavor.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱55</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/muffin.jpg" alt="Chocolate Muffin">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Chocolate Muffin</h3>
+                    <p class="product-desc">Moist chocolate muffin filled with rich cocoa chunks.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱85</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/cnm.jpg" alt="Cinnamon Roll">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Cinnamon Roll</h3>
+                    <p class="product-desc">Soft roll swirled with cinnamon sugar and vanilla glaze.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱75</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desserts Subsection -->
+        <div class="section-header">
+            <h2 class="section-title">Delicious Desserts</h2>
+            <div class="section-subtitle">Sweet Treats</div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/chch.jpg" alt="Chocolate Cake">
+                </div>
+                <div class="product-info">
+                    <div class="product-tag">POPULAR</div>
+                    <h3 class="product-title">Chocolate Cake</h3>
+                    <p class="product-desc">Rich and moist chocolate cake with creamy frosting.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱150</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/tms.jpg" alt="Tiramisu">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Tiramisu</h3>
+                    <p class="product-desc">A classic Italian dessert with layers of coffee-soaked ladyfingers, creamy mascarpone, and a dusting of cocoa.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱195</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/stck.jpg" alt="Strawberry Cheesecake">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Strawberry Cheesecake</h3>
+                    <p class="product-desc">Strawberry cake is a light, moist, and tender dessert characterized by its distinct strawberry flavor, often featuring a natural, pale pink color.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱180</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pastas Subsection -->
+        <div class="section-header">
+            <h2 class="section-title">Signature Pasta</h2>
+            <div class="section-subtitle">Hearty Meals</div>
+        </div>
+
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/spag.jpg" alt="Golden Strand Classic">
+                </div>
+                <div class="product-info">
+                    <div class="product-tag">POPULAR</div>
+                    <h3 class="product-title">Golden Strand Classic</h3>
+                    <p class="product-desc">A rich, creamy pasta tossed in a luxurious truffle-infused sauce with deep, earthy flavor.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱200</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/truffle.jpg" alt="Midnight Truffle Silk">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Midnight Truffle Silk</h3>
+                    <p class="product-desc">Rich and creamy fettuccine pasta tossed with parmesan and butter.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱280</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="asset/pesto.jpg" alt="Emerald Basil Twist">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Emerald Basil Twist</h3>
+                    <p class="product-desc">Fresh basil pesto tossed with pasta, garlic, olive oil, and Parmesan for a bright, aromatic flavor.</p>
+                    <div class="product-footer">
+                        <div class="product-price">₱250</div>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="contact">
+    <div class="container">
+        <div class="footer-content">
+
+            <div class="footer-column">
+                <h3>About Cafe Serene</h3>
+                <p style="color: var(--coffee-accent); margin-bottom:20px;">
+                    Artisan coffee roasters dedicated to quality, sustainability, and the perfect cup.
+                </p>
+
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Coffee Blends</a></li>
+                    <li><a href="#">Brewing Guides</a></li>
+                    <li><a href="#">Sustainability</a></li>
+                    <li><a href="#">Wholesale</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fa-solid fa-location-dot"></i> 1B Wannamaker St., Marikina City</li>
+                    <li><i class="fa-solid fa-phone"></i> 0963 864 2111</li>
+                    <li><i class="fa-solid fa-envelope"></i> cafeserene@gmail.com</li>
+                    <li><i class="fa-solid fa-clock"></i> Mon–Sat: 7:00am–9:00pm</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+<div id="signin-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Sign In</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      
+      <button type="submit" class="btn btn-primary">Sign In</button>
+    </form>
+  </div>
+</div>
+
+<!-- Sign In Modal -->
+<div id="signin-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Sign In</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter your password" required>
+      
+      <button type="submit" class="btn btn-primary">Sign In</button>
+    </form>
+  </div>
+</div>
+
+<!-- Order Online Modal -->
+<div id="order-modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Order Online</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      
+      <label for="email-order">Email:</label>
+      <input type="email" id="email-order" placeholder="Enter your email" required>
+      
+      <label for="item">Select Item:</label>
+      <select id="item" required>
+        <option value="">--Choose--</option>
+        <option value="Strawberry Zen Latte">Strawberry Zen Latte</option>
+        <option value="Caramel Cloud">Caramel Cloud</option>
+        <option value="Ivory Mocha Bliss">Ivory Mocha Bliss</option>
+      </select>
+
+      <label for="quantity">Quantity:</label>
+      <input type="number" id="quantity" min="1" value="1">
+
+      <button type="submit" class="btn btn-primary">Place Order</button>
+    </form>
+  </div>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
